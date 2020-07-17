@@ -1,0 +1,110 @@
+.cf:before, .cf:after{
+	content: " ";
+	display: table;
+}
+
+.cf:after{
+	clear: both;
+}
+
+.fixed-width{
+	width: 1600px;
+	margin: 0 auto  0 auto;
+}
+
+body, *, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EDEDED;
+	font-family: "Open Sans", sans-serif, Arial;
+    line-height: 1.5em;
+	font-size: 18px;
+	color: #333;
+	font-weight: 400;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+header > img{
+	display: block;
+	margin: 20px auto 0 auto;
+}
+
+.main-nav{
+	margin: 50px auto 50px auto;
+	text-align: center;
+	width: 480px;
+}
+
+.main-nav ul{
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.main-nav a{
+	transition: all 0.1s;
+	font-size:24px;
+	color: #E07700;
+	text-decoration: none;
+}
+
+.main-nav a:hover{
+	transition: all 0.1s;
+	color: #333;
+}
+
+.main-nav li{
+	display: inline;
+	margin-right: 10px;
+}
+.lists{
+	margin-left: 8%;
+}
+
+.display{
+	display: none;
+	position: absolute;
+	left: 300px;
+	width: 300px;
+	z-index: 1;
+}
+
+.is-visible{
+	display: block;
+}
+
+.cards-list{
+	position: relative;
+	border-bottom: 4px solid #aaa;
+	border-left: 4px solid #aaa;
+	border-radius: 5px;
+	float: left;
+	width: 350px;
+	margin-right: 4%;
+	padding-bottom: 8px;
+	margin-bottom: 50px;
+}
+
+.cards-list > h1{
+	margin-left: 5px;
+}
+
+.cards-list > div{
+	margin-left: 10px;
+}
+
+.lists > .cards-list:last-child{
+	margin-right: 0%;
+}
+
+.mana > img{
+	display: inline;
+	height: 15px;
+	width: 15px;
+}
